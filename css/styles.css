@@ -77,6 +77,10 @@ ul {
   margin-right: auto;
 }
 
+.hero .container{
+  max-width: 1600px;
+}
+
 .container-portfolio:hover {
   border: 2px solid var(--accent-bg-cl);
 }
@@ -156,32 +160,24 @@ ul {
   border-bottom: 1px solid var(--secondary-txt-cl);
 }
 
-/*Секція герой*/
-
-.hero {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: var(--dark-bg-cl);
-}
-
-.hero-title {
-  margin-bottom: 30px;
-  width: 696px;
-  margin-right: auto;
-  margin-left: auto;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--white-color);
-}
-
 /*Header Address*/
+.icon-envelope,
+.icon-phone {
+  width: 16px;
+  height: 12px;
+  align-items: baseline;
+  justify-content: center;
+  margin-right: 10px;
+  fill: var(--secondary-txt-cl);
+}
+
+.icon-envelope:hover,
+.icon-phone:hover,
+.icon-envelope:focus,
+.icon-phone:focus {
+  color: var(--accent-cl);
+}
+
 .header .list .mail,
 .header .list .phone {
   font-weight: 500;
@@ -223,7 +219,39 @@ ul {
 
 .studio-white {
   color: var(--white-color);
+}  
+
+/*Секція герой*/
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  background-color: var(--dark-bg-cl);
+  background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../images/bg-image/bcg-hero.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
+
+.hero-title {
+  margin-bottom: 30px;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
 
 /* Button */
 .btn.studio {
