@@ -461,6 +461,38 @@ img {
   color: var(--secondary-txt-cl);
 }
 
+.social-links {
+  width: 206px;
+  height: 44px;
+  display: flex;
+    margin-top: 16px;
+    margin-bottom: 30px;
+
+}
+.social-items {
+  display: flex;
+  list-style: none;
+}
+.border-icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: currentColor;
+  align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.border-icon:focus,
+.border-icon:hover {
+display: flex;
+  fill: var(--white-color);
+  background-color: var(--accent-bg-cl);
+  align-items: center;
+    justify-content: center;
+  background-position: center;
+}
+
 /*Portfolio*/
 
 .services-title {
