@@ -88,9 +88,13 @@ ul {
 }
 
 .list-about,
-.member-list,
 .container .services {
   display: flex;
+  margin-right: 30px;
+}
+
+.member-list {
+display: flex;
 }
 
 /* секція header */
@@ -384,7 +388,7 @@ margin-bottom: 30px;
 }
 
 /*Секція About*/
-img {
+.member-img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -424,7 +428,7 @@ img {
   margin-right: 30px;
 }
 
-.member-item:nth-last-child {
+.member-item:last-child {
   margin-right: 0;
 }
 
@@ -457,7 +461,7 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
+margin-bottom: 16px;
   color: var(--secondary-txt-cl);
 }
 
@@ -465,14 +469,27 @@ img {
   width: 206px;
   height: 44px;
   display: flex;
-    margin-top: 16px;
-    margin-bottom: 30px;
-
+  padding-top: 16px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+    align-items: center;
+    background-position: center;
 }
+
 .social-items {
   display: flex;
   list-style: none;
 }
+
+.socials {
+  margin-right: 10px;
+}
+
+.socials:last-child {
+  margin-right: 0;
+}
+
 .border-icon {
   display: flex;
   width: 40px;
