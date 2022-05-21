@@ -61,7 +61,6 @@ ul {
   align-items: center;
 }
 
-
 .container .services {
   display: flex;
   flex-wrap: wrap;
@@ -172,11 +171,12 @@ ul {
 
 .header {
   background-color: var(--white-bg-cl);
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 /*Header Address*/
-.mail, .phone {
+.mail,
+.phone {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -281,7 +281,7 @@ ul {
 
 .btn.studio:hover,
 .btn.studio:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .btn,
@@ -294,8 +294,8 @@ ul {
   cursor: pointer;
   text-decoration: none;
   font-style: normal;
-  
-  color: var(--secondary-bg-color); 
+
+  color: var(--secondary-bg-color);
 }
 
 .navigation-btn {
@@ -490,11 +490,10 @@ button.nav-btn:focus {
 .social-items {
   display: flex;
   list-style: none;
-  
+
   align-items: center;
   background-position: center;
   justify-content: center;
-  
 }
 
 .social-items.team {
@@ -635,12 +634,11 @@ button.nav-btn:focus {
 
 /*Footer*/
 .footer {
-  
   background-color: var(--dark-bg-cl);
 }
 .container.footer-container {
   padding-top: 60px;
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .mail,
@@ -701,7 +699,6 @@ button.nav-btn:focus {
 .container.footer-container {
   display: flex;
   align-items: baseline;
-  
 }
 .socials-join {
   margin-right: 10px;
@@ -713,15 +710,14 @@ button.nav-btn:focus {
   margin-right: 0;
 }
 
-
 .border-icon {
   display: flex;
   width: 44px;
   height: 44px;
-  
+
   background-position: center;
   border-radius: 50%;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   align-items: center;
   justify-content: center;
 }
@@ -755,9 +751,8 @@ button.nav-btn:focus {
   align-items: center;
   background-position: center;
   justify-content: center;
-  
 }
 
 .border-icon.link {
-  background-color: rgba(255, 255, 255, 0.1)
+  background-color: rgba(255, 255, 255, 0.1);
 }
