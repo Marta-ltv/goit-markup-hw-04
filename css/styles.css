@@ -179,8 +179,16 @@ ul {
 .phone {
   display: inline-flex;
   justify-content: center;
+}
+
+.mail {
   align-items: baseline;
 }
+
+.phone {
+align-items: center;
+}
+
 
 .icon-envelope,
 .icon-phone {
