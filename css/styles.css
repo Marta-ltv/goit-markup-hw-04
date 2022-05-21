@@ -211,7 +211,11 @@ ul {
 .link:hover,
 .header .list .mail:focus,
 .header .list .phone:focus,
-.link:focus {
+.link:focus,
+.footer .list-footer .mail:hover,
+.footer .list-footer .mail:focus,
+.footer .list-footer .phone:hover,
+.footer .list-footer .phone:focus {
   color: var(--accent-cl);
 }
 
@@ -275,6 +279,11 @@ ul {
   border: transparent;
 }
 
+.btn.studio:hover,
+.btn.studio:focus {
+  background-color: #188CE8;
+}
+
 .btn,
 .nav-item {
   font-family: inherit;
@@ -324,6 +333,7 @@ ul {
   border-radius: 4px;
 
   color: var(--main-txt-cl);
+  background: var(--secondary-bg-color);
 }
 
 .btn,
