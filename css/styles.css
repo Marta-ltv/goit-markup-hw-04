@@ -179,7 +179,7 @@ ul {
 .phone {
   display: inline-flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .icon-envelope,
